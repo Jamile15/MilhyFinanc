@@ -12,6 +12,7 @@ namespace MilhyFinanc.Controllers
         [HttpPost]
         public void NovoUsuario([FromBody] Usuario usuario)
         {
+            
             usuarios.Add(usuario);
             Console.WriteLine(usuario.Nome);
             Console.WriteLine(usuario.Senha);
