@@ -12,13 +12,21 @@ namespace MilhyFinanc.Controllers
         [HttpPost]
         public void NovoUsuario([FromBody] Usuario usuario)
         {
-            
+
             usuarios.Add(usuario);
             Console.WriteLine(usuario.Nome);
             Console.WriteLine(usuario.Senha);
             Console.WriteLine(usuario.Email);
 
-
         }
+        [HttpGet]
+        public List<Usuario> ListaUsuarios()
+        {
+            return usuarios;
+        }
+
     }
+
+
+
 }
