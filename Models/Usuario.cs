@@ -5,6 +5,8 @@ namespace MilhyFinancApi.Models;
 
 public class Usuario
 {
+    public int Id {get; set;}
+
     [Required(ErrorMessage = "O campo nome do usuario é obrigatório")]
     [MaxLength(10, ErrorMessage = "O tamaho do nome não pode exceder 50 caracteres")]
     public string Nome { get; set; }

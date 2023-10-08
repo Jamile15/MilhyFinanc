@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jamil\\MilhyFinanc\\MilhyFinanc.csproj": {}
+    "C:\\MilhyFinanc\\MilhyFinanc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jamil\\MilhyFinanc\\MilhyFinanc.csproj": {
+    "C:\\MilhyFinanc\\MilhyFinanc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamil\\MilhyFinanc\\MilhyFinanc.csproj",
+        "projectUniqueName": "C:\\MilhyFinanc\\MilhyFinanc.csproj",
         "projectName": "MilhyFinanc",
-        "projectPath": "C:\\Users\\jamil\\MilhyFinanc\\MilhyFinanc.csproj",
+        "projectPath": "C:\\MilhyFinanc\\MilhyFinanc.csproj",
         "packagesPath": "C:\\Users\\jamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamil\\MilhyFinanc\\obj\\",
+        "outputPath": "C:\\MilhyFinanc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jamil\\AppData\\Roaming\\NuGet\\NuGet.Config"

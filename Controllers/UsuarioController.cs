@@ -9,10 +9,11 @@ namespace MilhyFinanc.Controllers
     public class UsuarioController : ControllerBase
     {
         private static List<Usuario> usuarios = new List<Usuario>();
+        private static int id = 0;
         [HttpPost]
         public void NovoUsuario([FromBody] Usuario usuario)
         {
-
+            usuario.Id = id++;
             usuarios.Add(usuario);
             Console.WriteLine(usuario.Nome);
             Console.WriteLine(usuario.Senha);
